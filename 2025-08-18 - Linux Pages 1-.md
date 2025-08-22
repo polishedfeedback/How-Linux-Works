@@ -84,6 +84,9 @@ From page: 1  To page: ___
     - Example /dev/random is a random number generator for kernel, and is difficult to run in user mode. This looks like a hardware device but it is purely implemented in the software 
     - For a user process to use /dev/random, they have to make system calls (open, read, write)
 
+## User Space
+    - The space that kernel allocates for the user processes is called user space
+    - 
 ---
 
 ## ❓ Flashcards
