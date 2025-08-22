@@ -74,8 +74,15 @@ From page: 1  To page: ___
 - Important system calls for processes:
 	- `fork()` - Creates a nearly identical copy of the process
 	- `exec(program)` - replaces the current process with `program` 
-	- 
-
+	- Other than init all the processes in Linux start as a result of `fork()`
+- What happens when you run ls
+    - Shell calls `fork()` to create a copy of itself
+    - This copy of shell runs `exec(ls)` to execute ls
+- **Psuedo Devices**
+    - Psuedo devices are basically fake devices that look like hardware but are purely implemented in the software
+    - These often need privileged operations and run in kernel mode rather than user mode
+    - Example /dev/random is a random number generator for kernel, and is difficult to run in user mode. This looks like a hardware device but it is purely implemented in the software 
+    - For a user process to use /dev/random, they have to make system calls (open, read, write)
 
 ---
 
@@ -158,6 +165,27 @@ A: To prevent improper access (e.g., user process shutting down power)
 <!--ID: 20250816100350-->
 Q:  How does kernel solve the problem of device differences?
 A: By using device drivers that provide a uniform interface to user processes
+<!--ID: 20250816100350-->
+Q: What are system calls (syscalls) in Linux?  
+A: User processes sometimes need to use kernel services that they cannot do on their own (e.g., Opening a file, reading, writing) 
+<!--ID: 20250816100350-->
+Q: What does fork() do in Linux? 
+A: Creates a nearly identical copy of the current process
+<!--ID: 20250816100350-->
+Q: What does exec(program) do in Linux? 
+A: Replaces the current process with the specified program
+<!--ID: 20250816100350-->
+Q: How do most of the new processes start in Linux? 
+A: With fork() to create a copy, then exec() to replace it with a new program
+<!--ID: 20250816100350-->
+Q: What happens when you type `ls` in a shell? 
+A: The shell calls fork() to create it's own copy and then the copy runs exec(ls) to execute ls
+<!--ID: 20250816100350-->
+Q:  What are pseudodevices in Linux?
+A: Interfaces that look like devices but are purely implemented in the software (e.g., /dev/random)
+<!--ID: 20250816100350-->
+Q:  Why does accessing a pseudodevice still require a system call?
+A: Because processes must use syscalls (like open) to interact with them.
 <!--ID: 20250816100350-->
 Q:  
 A: 
