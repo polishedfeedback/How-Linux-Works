@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-08-18 - Linux Pages 1-.md",
+                "file": "2025-08-18 - Linux Pages 1-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-18 - Linux Pages 1-"
+              "title": "2025-08-18 - Linux Pages 1-10"
             }
           }
         ]
@@ -160,6 +160,16 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "4ef2158738a8e62d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
         "currentTab": 4
@@ -182,9 +192,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "341f9d750a2f5041",
+  "active": "a050180d11d1f8eb",
   "lastOpenFiles": [
-    "2025-08-18 - Linux Pages 1-.md",
+    "Linux.md",
+    "2025-08-18 - Linux Pages 1-10.md",
     "templates/Linux Study Template.md",
     "Welcome.md",
     "templates"

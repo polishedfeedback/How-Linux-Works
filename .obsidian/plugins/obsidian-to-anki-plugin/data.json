@@ -30,8 +30,8 @@
       "templates": ""
     },
     "Syntax": {
-      "Begin Note": "Q",
-      "End Note": "A",
+      "Begin Note": "START",
+      "End Note": "END",
       "Begin Inline Note": "STARTI",
       "End Inline Note": "ENDI",
       "Target Deck Line": "Deck",
@@ -42,7 +42,7 @@
     "Defaults": {
       "Scan Directory": "",
       "Tag": "Obsidian_to_Anki",
-      "Deck": "Default",
+      "Deck": "Linux",
       "Scheduling Interval": 0,
       "Add File Link": false,
       "Add Context": false,
@@ -52,14 +52,15 @@
       "Add Obsidian Tags": false
     },
     "IGNORED_FILE_GLOBS": [
-      "**/*.excalidraw.md",
-      "templates/**"
+      "**/*.excalidraw.md"
     ]
   },
   "Added Media": [],
   "File Hashes": {
-    "2025-08-18 - Linux Pages 1-.md": "0f7dce95324762bc20b9f354fb4cf061",
-    "templates/Linux Study Template.md": "3d7b90be618985f1889c230b85833673"
+    "2025-08-18 - Linux Pages 1-.md": "d40a6d6863a33636c77d614e9d5a74c5",
+    "templates/Linux Study Template.md": "3d7b90be618985f1889c230b85833673",
+    "2025-08-18 - Linux Pages 1-10.md": "3688ea76c7ced2c6795a31f6d6d041c6",
+    "Linux.md": "5e2a24b12eaca4c98654cb31b3482d85"
   },
   "fields_dict": {
     "Basic": [
