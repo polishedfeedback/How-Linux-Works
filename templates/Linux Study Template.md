@@ -12,17 +12,11 @@ From page: ___  To page: ___
 ---
 
 ## ❓ Flashcards
-<!--ID: {{date:YYYYMMDDHHmmss}}-->
-Q:  
-A:  
-
-<!--ID: {{date:YYYYMMDDHHmmss}}-->
-Q:  
-A:  
-
-<!--ID: {{date:YYYYMMDDHHmmss}}-->
-Q:  
-A:  
+START
+Basic
+Front:  
+Back:  
+END
 
 ---
 
