@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39942480fff1109b",
+        "id": "5a25aac4f1ee5a41",
         "type": "tabs",
         "children": [
           {
-            "id": "ab5ca32f1552d415",
+            "id": "9471981a4e5fe096",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -153,12 +153,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
             }
           },
           {
             "id": "4ef2158738a8e62d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "a45fa4056816526b",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -168,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -188,8 +198,9 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "ab5ca32f1552d415",
+  "active": "9471981a4e5fe096",
   "lastOpenFiles": [
+    "chapter-4/2025-10-10 - Linux Pages 70-.md",
     "2025-09-11 - Linux Pages 42-.md",
     "2025-09-11 - Linux Pages 42-.md~",
     "2025-08-25 - Linux Pages 19-.md~",
